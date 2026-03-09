@@ -11,7 +11,7 @@ disable-model-invocation: true
 ## 运行
 
 ```bash
-cd D:/wwwwwwwwwwwww/Tempo/tempo-auto
+cd tempo-auto
 export PATH="$HOME/.foundry/bin:$PATH"
 node tempo-auto.mjs
 ```
@@ -32,19 +32,16 @@ node tempo-auto.mjs
 ## 前置条件
 
 1. Tempo Foundry 已安装：`foundryup -n tempo`
-2. `.env` 配置在 `D:/wwwwwwwwwwwww/Tempo/.env`
+2. `.env` 配置在项目根目录
 3. 两个钱包已有代币余额（通过 Faucet 领取）
 
 ## 钱包信息
 
-| 钱包 | 地址 |
-|------|------|
-| Cast (主) | `0x1561025A78e986E6858D173Ec3a32e4b6d2C88fB` |
-| W2 (副) | `0x8370AEBF13A3A610ebca2CFed347414316Bd4e32` |
+在 `.env` 中配置 `CAST_PRIVATE_KEY`/`CAST_ADDRESS` 和 `W2_PRIVATE_KEY`/`W2_ADDRESS`。
 
 ## 脚本位置
 
-`D:/wwwwwwwwwwwww/Tempo/tempo-auto/tempo-auto.mjs`
+`tempo-auto/tempo-auto.mjs`
 
 ## 涵盖的 Tempo 独有特性
 

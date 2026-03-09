@@ -1,6 +1,6 @@
 # Tempo 项目
 
-## 工作流程（同 Arc 项目）
+## 工作流程
 1. **拉取技术文档** ✅ - 获取 Tempo 官方技术文档
 2. **保存为 MD** ✅ - 整理保存为 Markdown 文档
 3. **开发链上交互 Skills** ✅ - 基于技术文档开发自动化脚本（26 笔 tx，全部通过）
@@ -24,13 +24,7 @@
 | tempo-scheduled | 定时/限时交易 | ~2 |
 | tempo-full | 全流程编排 | ~26 |
 
-## 钱包
-| 名称 | 地址 |
-|------|------|
-| Cast (主) | `0x1561025A78e986E6858D173Ec3a32e4b6d2C88fB` |
-| W2 (副) | `0x8370AEBF13A3A610ebca2CFed347414316Bd4e32` |
-
 ## 注意事项
 - Foundry 已切换为 Tempo 版（`foundryup -n tempo`，v1.6.0-nightly-tempo）
 - 每次新终端：`export PATH="$HOME/.foundry/bin:$PATH"`
-- 工作目录：`D:/wwwwwwwwwwwww/Tempo/`
+- 工作目录：项目根目录

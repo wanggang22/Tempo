@@ -18,12 +18,12 @@ forge -V  # 应看到 -tempo 后缀
 
 ## 2. 钱包配置
 
-配置文件：`D:/wwwwwwwwwwwww/Tempo/.env`
+在 `.env` 中配置两个钱包：
 
-| 钱包 | 地址 | 用途 |
-|------|------|------|
-| Cast (主) | `0x1561025A78e986E6858D173Ec3a32e4b6d2C88fB` | 复用 Arc，主交互钱包 |
-| W2 (副) | `0x8370AEBF13A3A610ebca2CFed347414316Bd4e32` | 转账/代付测试 |
+| 钱包 | 环境变量 | 用途 |
+|------|----------|------|
+| Cast (主) | `CAST_PRIVATE_KEY` / `CAST_ADDRESS` | 主交互钱包 |
+| W2 (副) | `W2_PRIVATE_KEY` / `W2_ADDRESS` | 转账/代付测试 |
 
 ## 3. Faucet 领水
 

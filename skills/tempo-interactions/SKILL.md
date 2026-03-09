@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Tempo TIP-20 基础交互（~8 笔）
 
-从 `D:/wwwwwwwwwwwww/Tempo/.env` 读取配置。
+从项目根目录 `.env` 读取配置。
 
 ```bash
 export PATH="$HOME/.foundry/bin:$PATH"
